@@ -8,4 +8,10 @@ class CreditCard
   def charge(amount)
     @balance += amount
   end
+
+  def payment(pay_amount)
+    @balance -= pay_amount
+  end
 end
+
+# no rubocop offenses
